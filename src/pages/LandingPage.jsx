@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../../public/Logo.jpeg";
 import {
   faUserCheck,
   faHandshake,
@@ -549,10 +550,14 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-emerald-900">
             <div>
               <div className="flex items-center gap-2 text-xl font-bold text-white mb-3">
-                <FontAwesomeIcon icon={faLeaf} className="text-emerald-400" />
-                <span>
-                  Miabé<strong className="text-emerald-400">Assimé</strong>
+                <span className="">
+                  <img
+                    src={Logo}
+                    alt="Logo de MiabéAssimé"
+                    className="h-10 w-auto rounded-full"
+                  />
                 </span>
+                <span className=""> Miab'Assimé</span>
               </div>
               <p className="text-xs text-emerald-300/80 leading-relaxed mb-4">
                 {t("footer_tagline")}
@@ -640,19 +645,19 @@ export default function LandingPage() {
               </p>
               <p className="flex items-center gap-2">
                 <FontAwesomeIcon icon={faGlobe} className="text-emerald-400" />
-                <span>www.miabe-assime.tg</span>
+                <span>miabeassime.netlify.app/</span>
               </p>
             </div>
           </div>
 
           <div className="text-center my-8 select-none pointer-events-none opacity-10">
             <h1 className="text-[14vw] font-black text-white tracking-tight">
-              Miabé Assimé
+              Miab'Assimé
             </h1>
           </div>
 
           <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-emerald-400/80 pt-4">
-            <p>© 2025 Miabé Assimé · {t("footer_rights")}</p>
+            <p>© 2025 Miab'Assimé · {t("footer_rights")}</p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-white transition-colors">
                 {t("footer_privacy")}

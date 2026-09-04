@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../../../public/Logo.jpeg";
 import {
   faLeaf,
   faArrowRight,
@@ -77,10 +78,15 @@ export default function Navbar() {
         {/* LOGO */}
         <Link to="/" className="flex items-center gap-2.5 group">
           <span className="w-9 h-9 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 transition-transform group-hover:scale-105 shadow-xs">
-            <FontAwesomeIcon icon={faLeaf} className="text-base" />
+            <img
+              src={Logo}
+              alt="Miab'Assimé Logo"
+              fill
+              className=" rounded-full object-cover"
+            />
           </span>
           <span className="text-lg font-bold text-gray-800 tracking-tight">
-            Miabé
+            Miab'
             <strong className="text-emerald-700 font-extrabold">Assimé</strong>
           </span>
         </Link>
