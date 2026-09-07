@@ -557,7 +557,7 @@ export default function LandingPage() {
                     className="h-10 w-auto rounded-full"
                   />
                 </span>
-                <span className=""> Miab'Assimé</span>
+                <span className="">Agblé'simé</span>
               </div>
               <p className="text-xs text-emerald-300/80 leading-relaxed mb-4">
                 {t("footer_tagline")}
@@ -652,12 +652,12 @@ export default function LandingPage() {
 
           <div className="text-center my-8 select-none pointer-events-none opacity-10">
             <h1 className="text-[14vw] font-black text-white tracking-tight">
-              Miab'Assimé
+              Agblé'simé
             </h1>
           </div>
 
           <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-emerald-400/80 pt-4">
-            <p>© 2025 Miab'Assimé · {t("footer_rights")}</p>
+            <p>© 2025 Agblé'simé · {t("footer_rights")}</p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-white transition-colors">
                 {t("footer_privacy")}

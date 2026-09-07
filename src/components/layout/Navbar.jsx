@@ -86,8 +86,8 @@ export default function Navbar() {
             />
           </span>
           <span className="text-lg font-bold text-gray-800 tracking-tight">
-            Miab'
-            <strong className="text-emerald-700 font-extrabold">Assimé</strong>
+            Agblé
+            <strong className="text-emerald-700 font-extrabold">'simé</strong>
           </span>
         </Link>
 
