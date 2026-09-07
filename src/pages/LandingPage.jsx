@@ -108,7 +108,7 @@ export default function LandingPage() {
 
           <div className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-4 sm:gap-5">
             <Link
-              to="/marketplace"
+              to="/DownLoadApp"
               className="px-7 py-3.5 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-bold text-sm sm:text-base border border-white/35 hover:border-white/50 transition-all flex items-center gap-2.5 cursor-pointer shadow-lg hover:scale-105"
               id="hero-download-btn"
             >
@@ -174,7 +174,7 @@ export default function LandingPage() {
       >
         <div className="text-center mb-10 sm:mb-14">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight">
-            Une plateforme pensée pour les
+            Une plateforme pensée pour
           </h2>
         </div>
 

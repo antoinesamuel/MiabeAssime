@@ -12,6 +12,7 @@ import TransporterDashboard from "./pages/TransporterDashboard";
 import ChatPage from "./pages/ChatPage";
 import MarketTrendsPage from "./pages/MarketTrendsPage";
 import TransportPage from "./pages/TransportPage";
+import DownLoadApp from "./pages/DownLoadApp";
 
 function App() {
   return (
@@ -29,8 +30,12 @@ function App() {
               <Route path="/commercant" element={<MerchantDashboard />} />
               <Route path="/commercant/*" element={<MerchantDashboard />} />
               <Route path="/transporteur" element={<TransporterDashboard />} />
-              <Route path="/transporteur/*" element={<TransporterDashboard />} />
+              <Route
+                path="/transporteur/*"
+                element={<TransporterDashboard />}
+              />
               <Route path="/chat" element={<ChatPage />} />
+              <Route path="/DownLoadApp" element={<DownLoadApp />} />
               <Route path="/tendances" element={<MarketTrendsPage />} />
               <Route path="*" element={<LandingPage />} />
             </Routes>
